@@ -11,7 +11,7 @@ Palladio is relatively new and still under active development which
 means that you will almost certainly encounter bugs! Still, it’s a very
 useful tool for getting a handle on a complicated dataset.
 
-**When Might Palladio be the Right Tool for You?**
+### When Might Palladio be the Right Tool for You? ###
 
 **You have structured data.**
 
@@ -33,7 +33,7 @@ through North Carolina, and especially interested in bats as he traveled
 through Arizona. Palladio allows you to drill down through your data
 using faceted browsing.
 
-**When Might Palladio Not be the Right Tool for You?**
+### When Might Palladio Not be the Right Tool for You? ###
 
 **You have unstructured data.**
 
@@ -77,7 +77,8 @@ link multiple data tables together, its timespan feature, and a feature
 that allows you to use multiple basemaps. Perhaps these will be the
 subject of a later tutorial!
 
-A word on the dataset we'll use, which you can find here
+### A word on the dataset we'll use, which you can find here ###
+
 (https://www.dropbox.com/s/rn40mchgrusip0x/Cushman-Collection.csv?dl=0).
 This is a spreadsheet that contains the metadata for a portion of the
 Charles Weever Cushman Collection of photographs, located at Indiana
@@ -99,7 +100,9 @@ data-cleaning application OpenRefine.
 (https://www.dropbox.com/s/dkk4yjpc38wlpcx/Introduction%20to%20OpenRefine%20handout.pdf?dl=0)
 
 A reminder that Palladio is still under development, so it can be buggy
-and slow! Some tips:
+and slow! 
+
+### Some tips: ###
 
 -   Work slowly. Wait for an option to finish loading before you click
     it again or click something else.
@@ -150,6 +153,8 @@ category as temporal data.
 Click on the **Date** category. In the window that pops up, select
 **Date** from the **Data type** dropdown menu. Looks good! Click
 **Done**.
+
+Review your data categories with red circles.  (Except for categories you don't want to use and plan to [hide it](https://github.com/ctschroeder/palladio_workshop/blob/master/Getting_Started_with_Palladio.md#hide-some-data).  Make sure to tell Palladio the correct **Data types**.  Also for **Text** data, you may see **special characters** outlined in red.  Click them to ensure Palladio recognizes them properly.  You're all set when you have no more red circles.
 
 Hide some data
 --------------
