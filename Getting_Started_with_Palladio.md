@@ -154,6 +154,8 @@ Click on the **Date** category. In the window that pops up, select
 **Date** from the **Data type** dropdown menu. Looks good! Click
 **Done**.
 
+Note: If your **Date** category data includes a time stamp, you may need to go back and edit your data to remove the time stamp.  This is not hard, but I've gone ahead and done it for you.  So **if you need a cleaned-up Date category** try using [this edited version of the Cushman csv data file](https://github.com/ctschroeder/tutorials/blob/master/Cushman-Collection-edited.csv).
+
 Review your data categories with red circles.  (Except for categories you don't want to use and plan to [hide it](https://github.com/ctschroeder/palladio_workshop/blob/master/Getting_Started_with_Palladio.md#hide-some-data).  Make sure to tell Palladio the correct **Data types**.  Also for **Text** data, you may see **special characters** outlined in red.  Click them to ensure Palladio recognizes them properly.  You're all set when you have no more red circles.
 
 Hide some data
