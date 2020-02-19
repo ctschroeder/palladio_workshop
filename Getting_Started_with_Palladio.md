@@ -1,6 +1,8 @@
 Getting started with Palladio
 =============================
 
+## 1. About Palladio
+
 Palladio (palladio.designhumanities.org), a product of Stanford’s
 Humanities + Design Lab, is a web-based visualization tool for complex
 humanities data. Think of Palladio as a sort of Swiss Army knife for
@@ -77,7 +79,7 @@ link multiple data tables together, its timespan feature, and a feature
 that allows you to use multiple basemaps. Perhaps these will be the
 subject of a later tutorial!
 
-### A word on the dataset we'll use, which you can find here ###
+## 2. A word on the dataset we'll use, which you can find here
 
 (https://www.dropbox.com/s/rn40mchgrusip0x/Cushman-Collection.csv?dl=0).
 This is a spreadsheet that contains the metadata for a portion of the
@@ -99,8 +101,11 @@ Stephens on behalf of the British Library, which explains how to use the
 data-cleaning application OpenRefine.
 (https://www.dropbox.com/s/dkk4yjpc38wlpcx/Introduction%20to%20OpenRefine%20handout.pdf?dl=0)
 
-A reminder that Palladio is still under development, so it can be buggy
-and slow! 
+Dr. S note: I created an edited version with a cleaner date field that sometimes works better with Palladio. You can [download the edited version too](https://www.dropbox.com/s/kb8htofuenxqg75/Cushman-Collection-edited.csv?dl=0) if you have trouble with the timeline feature.
+
+A reminder that Palladio is still under development, so it can be buggy and slow! 
+
+## 3. Getting Started
 
 ### Some tips: ###
 
@@ -117,16 +122,14 @@ and slow!
 Navigate to Palladio.
 ---------------------
 
-![](-imgs/media/ssimage1.png)
-
-Go to palladio.designhumanities.org and click on **Start**.
+Go to https://hdlab.stanford.edu/palladio/ and click on **Start**.
 
 Upload your spreadsheet.
 ------------------------
 
 ![](-imgs/media/ssimage2.png)
 
-Locate the **Cushman-Collection.csv** file you downloaded earlier. Click on its icon and drag the file directly onto the blank box that appears under the words **Load CSV or spreadsheet**. Then press **Load**.
+Locate the **Cushman-Collection.csv** file or the **cushman-collection-edited.csv** file you downloaded earlier. Click on its icon and drag the file directly onto the blank box that appears under the words **Load CSV or spreadsheet**. Then press **Load**.
 
 **Having trouble loading your data?** Check to make sure that your spreadsheet is saved as a CSV (comma-separated value) file and not an XLS (Excel) file. If you opened your spreadsheet in Excel and saved it, it may be saved as the wrong kind of file. In order to save your data as a CSV file, open the spreadsheet in Excel, then click **Save As** and choose **CSV** as the format. **CSV** is sort of the generic form for your spreadsheet, while **XLS** is Excel-specific. Palladio only likes the former!
 
@@ -171,7 +174,7 @@ tiny eye to the right of the category name. I hid **Archive Date**,
 Condition**. You can always go back and reveal these if you decide you
 want them after all.
 
-Map your data!
+## 4. Map your data!
 --------------
 
 ![](-imgs/media/ssimage6.png)
@@ -185,7 +188,7 @@ only could you map one kind of thing, like photos; you could layer other
 kinds of things on top of that data. For example, it might be cool to
 have a layer of Cushman's photos and a layer of interstate road
 networks, to see if Cushman traveled on highways. Palladio lets you do
-that!
+that!  (Dr. S note: you can also change the base map tiles with Tableau Public and Google maps.)
 
 But for the time being, we only have one layer: Cushman's photos. So
 we'll stick with that.
@@ -218,8 +221,7 @@ You have a map!
 
 Looking good! If you hover over a map point, you should get a tooltip.
 
-Combine your map with a timeline.
----------------------------------
+## 5. Combine your map with a timeline.
 
 ![](-imgs/media/ssimage9.png)
 
@@ -253,7 +255,7 @@ to the datespan above the graph**.**
 Note: If you're unable to "grab" your timeline in order to filter it, it
 may help to lengthen your browser window.
 
-Add a facet to further refine your data.
+## 6. Add a facet to further refine your data.
 ----------------------------------------
 
 ![](-imgs/media/ssimage11.png)
@@ -291,7 +293,7 @@ dates, the timespan function would display those dates as "lifespans."
 Take a look at this video for an explanation:
 https://vimeo.com/101672780.)
 
-Explore your data as a gallery.
+## 7. Explore your data as a gallery.
 -------------------------------
 
 ![](-imgs/media/ssimage13.png)
@@ -327,7 +329,7 @@ You can filter your gallery in the same way that you filter your map.
 For example, in the above image, I'm looking at pictures taken in
 Chicago that contain both clouds and buildings.
 
-View your data as a network diagram.
+## 8. View your data as a network diagram.
 ------------------------------------
 
 ![](-imgs/media/ssimage16.png)
@@ -358,7 +360,7 @@ number of objects they represent, click on the **Size nodes** checkbox.
 And you can filter your diagram in the same way you filtered your map
 and gallery.
 
-Share your work.
+## 9. Share your work.
 ----------------
 
 ![](-imgs/media/ssimage18.png)
@@ -369,7 +371,9 @@ screenshot or clicking on the **Download** link, which allows you to
 download an svg file. An svg is an image, and you can post it or share
 it as you like.
 
-Download your work
+Dr. S note: for maps, the svg sometimes doesn't include the base file -- take a screenshot!
+
+## 10. Download your work
 ------------------
 
 ![](-imgs/media/ssimage19.png)
@@ -384,7 +388,7 @@ extension .json. The next time you use Palladio, you can upload this
 file (on the Palladio homepage) in order to open your project where you
 left off.
 
-Other cool things Palladio can do
+## 11. Other cool things Palladio can do
 ---------------------------------
 
 ![](-imgs/media/ssimage20.png)
@@ -406,7 +410,7 @@ Other cool things you can do with Palladio:
 
 -   visualize spans of time with the timespan feature
 
-If you're done and waiting for other people to finish
+## 12. If you're done and waiting for other people to finish
 ------------------------------------------------------
 You might consider these questions:
 
@@ -419,7 +423,5 @@ You might consider these questions:
 - Can you identify routes along which Cushman traveled? How might you do that?
 
 - What do you learn by looking at the photographs this way? What don’t you learn?
-
-And, if you'd like, you can visualize this same dataset using Google Fusion Tables. [Here's a tutorial for that.](https://github.com/miriamposner/fusion_tables/blob/master/fusiontables.md)
 
 
